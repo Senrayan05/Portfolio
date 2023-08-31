@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio website</title>
+    <link rel="stylesheet" href="./css/Styles.css">
+    <link rel="stylesheet" href="./css/mediaqueries.css">
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Senrayan</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#Projects">Project</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--for  Hamburger option -->
+    <nav id="hamburger-nav">
+        <div class="logo">Senrayan</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#Experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#Projects" onclick="toggleMenu()">Project</a></li>
+                <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+
+            </div>
+        </div>
+
+    </nav>
+    <section id="profile">
+        <div class="Section-container">
+            <div class="section_pic-container">
+                <img src="./Images/k1.jpg" alt="Senrayan Profile picture" class="about-pic" />
+                <div class="about_me">
+
+                    <div class="about_me_details">
+                        <p class="section__text__p1">Hello, I'm</p>
+                        <h1 class="title">Senrayan</h1>
+                        <p class="section__text__p2">Frontend Developer</p>
+                        <div class="my_info">
+                            <div class="section_text">
+                                <!-- <div class="btn-cointainer"></div> -->
+                                <button class="btn btn-color-2" style="margin-right: 10px;"
+                                    onclick="window.open('./assets/sen_resume.docx')">Download CV</button>
+                                <button class="btn btn-color-1" onclick="location.href='./#Contact'">
+                                    Contact Info
+                                </button>
+                            </div>
+
+
+                            <div id="socials-container">
+                                <img Src="./Images/linkedin_profile" alt="My LinkedIn profile" class="icon"
+                                    onclick="location.href='https://www.linkedin.com/in/a-senrayan-905010195/'" />
+                                <img Src="./Images/GIthub" alt="My Github profile" class="icon"
+                                    onclick="location.href='https://github.com/'" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="about-detail-cointainer">
+                <div class="more_about_me">
+                    <p class="section__text__p1">Get to know more</p>
+                    <h1 class="title">About Me</h1>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="my_info">
+            <img src="./Images/Experience.png" alt="experience icon" class="icon" />
+            <h3> MTech Student </h3>
+            <h3>Fresher</h3>
+            <P> B.E Bachelors Degree</P>
+            <p>MTech Masters Degree</p>
+            <p>
+                Hi! My name is A Senrayan. I am a Software Engineering Student at RVCE and I’m here to introduce
+                myself in my professional portfolio.
+            </p>
+            <p>I hope that you enjoy the work I’ve created.</p>
+        </div>
+
+
+
+
+        <!-- <img src="./Images/Arrow.jpeg" alt="arrw icon" class="icon arrow" onclick="location.href='./#experience'" /> -->
+        <section id="Experience">
+            <h1 class="title" style="margin-top: 10px;">Experience</h1>
+            <div class="experience-detail-cointainer">
+                <div class="about-cointainers">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-cointainer">
+                        <article>
+                            <img src="./Images//tick.jpg" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Images//tick.jpg" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Images//tick.jpg" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Python</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Images//tick.jpg" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>SQL</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Images//tick.jpg" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Javascript</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+        </section>
+        <section id="Experience">
+            <div class="experience-detail-cointainer">
+                <div class="about-cointainers">
+                    <h2 class="experience-sub-title">Backend Development</h2>
+                    <div class="article-cointainer">
+                        <article>
+                            <img src="./Images//tick.jpg" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Git</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Images//tick.jpg" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Node.js</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            
+            <div class="my_info">
+                <h1>Projects</h1>
+                    <p class="section__text__p1">Browse My Recent</p>
+                    <img src="./Images/project.png" alt="Project 1" class="project-img" style="height: 60px;" />
+                    <h2 class="experience-sub-title project-title">Blogging Project </h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'"> Live Demo
+                        </button>
+    
+                        </button>
+    
+                    </div>
+                </div>
+                </div>
+
+        </section>
+
+        <script src="../Js/Script.js"></script>
+</body>
+
+</html>
